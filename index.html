@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Farras 2322009</title>
+
+  <!-- CSS di dalam tag <style> -->
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+      text-align: center;
+    }
+
+    h1 {
+      color: #333;
+      margin-top: 50px;
+    }
+
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+      margin-top: 20px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 5px;
+    }
+
+    button:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- HTML Konten -->
+  <h1>Farras 2322009</h1><br><br>
+  <h5>maaf kekurangan halamannya pak, 
+    saya masih di kampung dengan banyak kegiatan juga
+     dengan keadaan kurang sehat</h5><br><br>
+  <button onclick="gantiWarna()">Klik untuk Ganti Warna Latar</button><br><br>
+  <h3>Ergonomi buruk</h3><br><br>
+  <img src="download.jpg"><br><br>
+  <h4>Postur tubuh pekerja buruk</h4><br><br>
+  <p>Tengkuk leher, punggung, pinggang, lengan bawah, serta lutut 
+    tidak berada di posisi yang ternyaman sehingga beresiko menyebabkan 
+    nyeri, pegal-pegal, dan masalah otot lainnya.
+  </p><br><br>
+  <h3>Ergonomi baik</h3><br><br>
+  <img src="images.jpg"><br><br>
+  <h4>Postur tubuh pekerja baik</h4><br><br>
+  <p>Tulang belakang lurus, leher tegak, 
+    siku tangan dan lutu tidak terlalu menekuk, 
+    jarak pandang dan tinggi kursi pas, 
+    berbagai situasi tersebut mendukung kenyamanan pekerjaan 
+    menunjukkan tingkat ergonomi yang baik.
+  </p><br><br>
+  <h5>Terima kasih</h5><br><br>
+  <!-- JavaScript di dalam tag <script> -->
+  <script>
+    function gantiWarna() {
+      // Mengubah warna latar belakang halaman secara acak
+      const warnaAcak = ['#f0f0f0', '#FFDDC1', '#D4E157', '#81C784', '#FF7043'];
+      const randomColor = warnaAcak[Math.floor(Math.random() * warnaAcak.length)];
+      document.body.style.backgroundColor = randomColor;
+    }
+  </script>
+
+</body>
+</html>
